@@ -6,10 +6,14 @@
 
 input{
     width: 200px;
-    height: 56px;
     border: 1px solid #828282;
     border-radius: 8px;
     margin-top: 10px;
+}
+
+input::placeholder{
+    position: relative;
+    left: 5%;
 }
 
 label {
@@ -63,4 +67,29 @@ label.error{
 
 .helper-text.error{
     color: #D32F2F;
+}
+
+input.icon-start::placeholder{
+    position: relative;
+    left: 45px;
+}
+
+.start{
+    position: relative;
+    top: 50px;
+    margin-left: 15px;
+}
+
+.end {
+    position: relative;
+    top: -45px;
+    left: 170px;
+}
+
+.sm {
+    height: 40px;
+}
+
+.md {
+    height: 56px;
 }
