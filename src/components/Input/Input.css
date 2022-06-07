@@ -93,3 +93,19 @@ input.icon-start::placeholder{
 .md {
     height: 56px;
 }
+
+.full-width{
+    width: 100%;
+}
+
+textarea{
+    width: 200px;
+    border: 1px solid #828282;
+    border-radius: 8px;
+    margin-top: 10px;
+    outline: none;
+}
+
+textarea:focus{
+    outline: 1px solid #2962FF;
+}

@@ -61,6 +61,14 @@ function App() {
         <Input size="sm"/>
         <Input size="md"/>
       </div>
+
+      {/* Input full width */}
+      <p className='text'>&lt; Input fullWidth /&gt;</p>
+      <Input fullWidth/>
+
+      {/* Input multiline */}
+      <p className='text'>&lt; Input rows="" /&gt;</p>
+      <Input multiline row="10"/>
     </div>
   );
 }
