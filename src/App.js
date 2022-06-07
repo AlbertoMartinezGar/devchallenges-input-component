@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Input from './components/Input/Input';
 
@@ -13,7 +12,6 @@ function App() {
     justifyContent: "space-around"
   }
 
-  const room = "room";
   return (
     <div className="App">
       <h1>Input Component</h1> 
@@ -67,8 +65,10 @@ function App() {
       <Input fullWidth/>
 
       {/* Input multiline */}
-      <p className='text'>&lt; Input rows="" /&gt;</p>
+      <p className='text'>&lt; Input multiline rows="" /&gt;</p>
       <Input multiline row="10"/>
+
+      <p>devchallenges.io - Alberto Martinez <b>*Do not copy!*</b></p>
     </div>
   );
 }
